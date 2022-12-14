@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #23252a;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  background-color: #23252a;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.nav__links {
+  list-style: none;
+  background-color: #23252a;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: #23252a;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  background-color: #23252a;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.msg {
+  width: 70%;
+  height: 500px;
+  margin: 0px 15% auto 15%;
+  background-color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  width: 70%;
+  margin: 0px 15%;
+}
+
+.which {
+  margin: 35px auto;
+  text-align: center;
+  font-size: 32px;
+}
+
+.stuff {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stuff1,
+.stuff2,
+.stuff3 {
+  text-align: center;
+  height: 232.27px;
+  width: 25%;
+  font-size: 24px;
+  background-color: grey;
+  padding-top: 80px;
+  border-radius: 14px;
+}
